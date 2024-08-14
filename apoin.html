@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Consultations - Schedule Appointment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Agendar Consulta</h1>
+        <form>
+            <label for="patient">Paciente:</label>
+            <input type="text" id="patient" name="patient" required>
+            <label for="doctor">Médico:</label>
+            <input type="text" id="doctor" name="doctor" required>
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Hora:</label>
+            <input type="time" id="time" name="time" required>
+            <button type="submit">Agendar</button>
+        </form>
+        <button onclick="history.back()">Voltar</button>
+    </div>
+</body>
+</html>
